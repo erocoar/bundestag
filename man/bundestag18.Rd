@@ -17,4 +17,7 @@ bundestag18
 \description{
 A dataset containing role call votes cast during the 18th electoral term of the German Bundestag (22-10-2013 to 24-10-2017).
 }
+\details{
+All columns other than the ones described below are vote IDs and contain the following factors reflecting the voters' votes: `ja` - yes, `nein` - no, `ungültig` - invalid, `Enthaltung` - abstention, `nicht abgegeben` - vote not cast.
+}
 \keyword{datasets}
