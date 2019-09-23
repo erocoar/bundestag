@@ -2,7 +2,7 @@ Package: bundestag
 Title: Roll Call Vote Data of the German Bundestag.
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Frederik"
+    person(given = "Frederik",
            family = "Tiedemann",
            role = c("aut", "cre"),
            email = "fj.tiedemann@googlemail.com")
