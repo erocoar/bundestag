@@ -4,20 +4,18 @@
 \name{bundestag17}
 \alias{bundestag17}
 \title{17th electoral term}
-\format{A data frame with 852 rows and 107 variables.
+\format{A data frame with 127766 rows and 5 variables.
 \describe{
-\item{Fraktion/Gruppe}{Party associated with voter}
+\item{Party}{Party associated with voter}
 \item{Name}{Last name of voter}
-\item{Bezeichnung}{Full name of voter}
-...
+\item{Full Name}{Full name (plus constituency in case of duplicate names) of voter}
+\item{Vote ID}{ID of the role call vote, corresponding to electoral term and date}
+\item{Vote}{Vote - one of yes, no, invalid, abstained}
 }}
 \usage{
 bundestag17
 }
 \description{
 A dataset containing role call votes cast during the 17th electoral term of the German Bundestag (27-10-2009 to 22-10-2013).
-}
-\details{
-All columns other than the ones described below are vote IDs and contain the following factors reflecting the voters' votes: `ja` - yes, `nein` - no, `ungültig` - invalid, `Enthaltung` - abstention, `nicht abgegeben` - vote not cast.
 }
 \keyword{datasets}
