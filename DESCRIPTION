@@ -7,7 +7,10 @@ Authors@R:
            role = c("aut", "cre"),
            email = "fj.tiedemann@googlemail.com")
 Description: The bundestag package contains all available roll call vote data of the German Bundestag.
+URL: https://github.com/erocoar/bundestag
 License: MIT + file LICENSE
+Depends:
+	R (>= 2.10)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
