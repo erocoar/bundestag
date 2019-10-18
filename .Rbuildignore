@@ -1,2 +1,10 @@
 ^bundestag\.Rproj$
 ^\.Rproj\.user$
+^CRAN-RELEASE$
+^\.travis\.yml$
+^CRAN-RELEASE$
+^/\.gitattributes$
+^cran-comments.md$
+^NEWS$
+^README\.Rmd$
+^docs$
